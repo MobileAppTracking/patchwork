@@ -1,5 +1,5 @@
 {
-    "name": "antecedent/patchwork",
+    "name": "MobileAppTracking/patchwork",
     "description": "A pure PHP library that lets you redefine user-defined functions at runtime.",
     "keywords": ["testing", "redefinition", "runkit", "monkeypatching"],
     "homepage": "http://antecedent.github.io/patchwork/",
@@ -13,5 +13,8 @@
     "minimum-stability": "stable",
     "require": {
         "php": ">=5.3.0"
+    },
+    "autoload": {
+	"files": ["Patchwork.php"]
     }
 }
